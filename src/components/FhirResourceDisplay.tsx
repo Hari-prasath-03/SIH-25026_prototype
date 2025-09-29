@@ -11,7 +11,7 @@ const FhirResourceDisplay = ({ fhirResource }: { fhirResource: any }) => (
     <div
       className="bg-gray-900 text-green-400 p-4 rounded-lg 
     text-xs font-mono max-h-96 overflow-y-auto max-w-70 
-    sm:max-w-auto overflow-x-hidden sm:overflow-x-auto"
+    sm:max-w-full overflow-x-hidden sm:overflow-x-auto"
     >
       <pre>{JSON.stringify(fhirResource, null, 2)}</pre>
     </div>
